@@ -1,0 +1,11 @@
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\bin\Debug\Select-Case-AND-If-Then-Explorations.exe.config
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\bin\Debug\Select-Case-AND-If-Then-Explorations.exe
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\bin\Debug\Select-Case-AND-If-Then-Explorations.pdb
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\bin\Debug\Select-Case-AND-If-Then-Explorations.xml
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\obj\Debug\Select_Case_AND_If_Then_Explorations.Form1.resources
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\obj\Debug\Select_Case_AND_If_Then_Explorations.Resources.resources
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\obj\Debug\Select-Case-AND-If-Then-Explorations.vbproj.GenerateResource.Cache
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\obj\Debug\Select-Case-AND-If-Then-Explorations.exe
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\obj\Debug\Select-Case-AND-If-Then-Explorations.xml
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\obj\Debug\Select-Case-AND-If-Then-Explorations.pdb
+C:\Users\Caleb\Documents\GitHub\Select-Case-AND-If-Then-Explorations\Select-Case-AND-If-Then-Explorations\obj\Debug\Select-Case-AND-If-Then-Explorations.vbprojResolveAssemblyReference.cache
