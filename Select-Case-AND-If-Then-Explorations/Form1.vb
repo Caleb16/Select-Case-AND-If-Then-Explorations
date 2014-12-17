@@ -6,9 +6,9 @@
         Dim intScissors As Integer = 3
         Dim intComThrow As Integer
         Dim strName As String = Me.txtName.Text
-        Dim intUserScore As Integer = 0
-        Dim intComScore As Integer = 0
-        Dim intTieScore As Integer = 0
+        Dim intUserScore As Integer
+        Dim intComScore As Integer
+        Dim intTieScore As Integer
 
         Me.lblUser.Text = strName & "'s" & " Score"
 
