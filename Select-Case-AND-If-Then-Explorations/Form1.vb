@@ -6,9 +6,9 @@
         Dim intScissors As Integer = 3
         Dim intComThrow As Integer
         Dim strName As String = Me.txtName.Text
-        Dim intUserScore As Integer = +1
-        Dim intComScore As Integer = +1
-        Dim intTieScore As Integer = +1
+        Dim intUserScore As Integer = 0
+        Dim intComScore As Integer = 0
+        Dim intTieScore As Integer = 0
 
         Me.lblUser.Text = strName & "'s" & " Score"
 
@@ -17,35 +17,40 @@
 
         If intComThrow = intRock And Me.rdoRock.Checked = True Then
             Me.lblResult.Text = "Rock Vs. Rock, Tie"
-            Me.lblTieScore.Text = intTieScore + 1
+            intTieScore += 1
         ElseIf intComThrow = intRock And Me.rdoPaper.Checked = True Then
             Me.lblResult.Text = "Paper Covers Rock, " & strName & " Wins"
-            Me.lblUserScore.Text = intUserScore + 1
+            intUserScore += 1
         ElseIf intComThrow = intRock And Me.rdoScissors.Checked = True Then
             Me.lblResult.Text = "Rock Smashes Scissors, Computer Wins"
-            Me.lblComputerScore.Text = intComScore + 1
+            intComScore += 1
         End If
 
         If intComThrow = intPaper And Me.rdoRock.Checked = True Then
             Me.lblResult.Text = "Paper Covers Rock, Computer Wins"
-            Me.lblComputerScore.Text = intComScore + 1
+            intComScore += 1
         ElseIf intComThrow = intPaper And Me.rdoPaper.Checked = True Then
             Me.lblResult.Text = "Paper Vs. Paper, Tie"
-            Me.lblTieScore.Text = intTieScore + 1
+            intTieScore += 1
         ElseIf intComThrow = intPaper And Me.rdoScissors.Checked = True Then
             Me.lblResult.Text = "Scissors Cuts Paper, " & strName & " Wins"
-            Me.lblUserScore.Text = intUserScore + 1
+            intUserScore += 1
         End If
 
         If intComThrow = intScissors And Me.rdoRock.Checked = True Then
             Me.lblResult.Text = "Rock Smashes Scissors, " & strName & " Wins"
-            Me.lblUserScore.Text = intUserScore + 1
+            intUserScore += 1
         ElseIf intComThrow = intScissors And Me.rdoPaper.Checked = True Then
             Me.lblResult.Text = "Scissors Cut Paper, Computer Wins"
-            Me.lblComputerScore.Text = intComScore + 1
+            intComScore += 1
         ElseIf intComThrow = intScissors And Me.rdoScissors.Checked = True Then
             Me.lblResult.Text = "Scissors Vs. Scissors, Tie"
-            Me.lblTieScore.Text = intTieScore + 1
+            intTieScore += 1
         End If
+
+        'Update scores on Game Board
+        Me.lblTieScore.Text = intTieScore
+        Me.lblUserScore.Text = intUserScore
+        Me.lblComputerScore.Text = intComScore
     End Sub
 End Class
